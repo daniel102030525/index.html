@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arise-Agencies Limited</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="logo">Arise-Agencies Ltd</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section id="home" class="hero">
+    <h1>Empowering Your Vision</h1>
+    <p>Professional agency solutions tailored for your business growth.</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Core Services</h2>
+    <div class="services-grid">
+      <div class="card">
+        <h3>Consulting</h3>
+        <p>Strategic planning to elevate your company milestones.</p>
+      </div>
+      <div class="card">
+        <h3>Management</h3>
+        <p>Reliable operational support to handle your daily tasks.</p>
+      </div>
+      <div class="card">
+        <h3>Digital Solutions</h3>
+        <p>Modern tech alignment to build your online presence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Arise-Agencies Limited. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
