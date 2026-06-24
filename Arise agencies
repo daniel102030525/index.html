@@ -8,43 +8,55 @@
 </head>
 <body>
 
-  <!-- Navigation Bar -->
+  <!-- Header Navigation -->
   <header>
     <div class="logo">Arise-Agencies Ltd</div>
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#properties">Properties</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Banner -->
+  <!-- Hero Section -->
   <section id="home" class="hero">
-    <h1>Empowering Your Vision</h1>
-    <p>Professional agency solutions tailored for your business growth.</p>
-    <a href="#contact" class="btn">Get Started</a>
+    <h1>Find Your Dream Property</h1>
+    <p>Premium real estate and property management solutions by Arise-Agencies Limited.</p>
   </section>
 
-  <!-- Services Section -->
-  <section id="services">
-    <h2>Our Core Services</h2>
-    <div class="services-grid">
-      <div class="card">
-        <h3>Consulting</h3>
-        <p>Strategic planning to elevate your company milestones.</p>
+  <!-- Properties Grid Section -->
+  <section id="properties">
+    <h2>Featured Listings</h2>
+    <div class="grid-container">
+      <div class="property-card">
+        <h3>Modern 3-Bedroom Apartment</h3>
+        <p>Location: Prime Suburbs</p>
+        <span class="price">Contact for Price</span>
       </div>
-      <div class="card">
-        <h3>Management</h3>
-        <p>Reliable operational support to handle your daily tasks.</p>
-      </div>
-      <div class="card">
-        <h3>Digital Solutions</h3>
-        <p>Modern tech alignment to build your online presence.</p>
+      <div class="property-card">
+        <h3>Commercial Office Space</h3>
+        <p>Location: Central Business District</p>
+        <span class="price">Available Now</span>
       </div>
     </div>
+  </section>
+
+  <!-- Property Buyer Contact Form (WhatsApp Link) -->
+  <section id="contact" class="form-section">
+    <h2>Property Inquiry Form</h2>
+    <p>Fill out your details below to chat with an agent instantly via WhatsApp.</p>
+    
+    <form action="https://wa.me/254700000000" method="get" target="_blank">
+      <label for="name">Your Full Name:</label>
+      <input type="text" id="name" name="text" placeholder="Enter your name" required>
+
+      <label for="property">Property of Interest:</label>
+      <input type="text" id="property" placeholder="e.g., 3-Bedroom Apartment" required>
+
+      <button type="submit" class="submit-btn">Send WhatsApp Message</button>
+    </form>
   </section>
 
   <!-- Footer -->
@@ -54,3 +66,4 @@
 
 </body>
 </html>
+
