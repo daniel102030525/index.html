@@ -55,6 +55,8 @@
       <label for="property">Property of Interest:</label>
       <input type="text" id="property" placeholder="e.g., 3-Bedroom Apartment" required>
 
+
+
       <button type="submit" class="submit-btn">Send WhatsApp Message</button>
     </form>
   </section>
